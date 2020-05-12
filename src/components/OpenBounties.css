@@ -1,0 +1,98 @@
+.parent{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align:center;
+
+}
+
+@font-face {
+  font-family: 'deathStar';
+  src: url('../assets/fonts/DeathStar-VmWB.ttf')format('truetype');
+}
+
+.openBountyHeader{
+  margin-left: 38%;
+  font-family: 'deathStar','DM Mono', monospace;
+  font-size: 60px;
+  margin:5% 0 3% 0;
+  text-shadow:
+  -2px -2px 0 red,
+  2px 2px 0 red,
+  -2px 2px 0 red,
+  2px 2px 0 red;
+}
+
+
+.personDiv{
+  border: 1px solid black;
+  border-radius: 50px;
+  padding:1rem;
+  margin: .1rem;
+  box-shadow: 0 0 10px #333;
+}
+
+.deadDiv{
+  background-color:rgb(189, 96, 110);
+  position: relative;
+  width: 99%;
+}
+
+.aliveDiv{
+  background-color:rgb(255, 255, 255);
+  position: relative;
+  width: 99%;
+}
+
+.buttonInfo{
+  margin-top:5px;
+  text-align:center;
+  box-shadow: 0 0 15px #333;
+} 
+
+.mugShot{
+  box-shadow: 0 0 15px #333;
+  margin: 10px;
+  border: 1px black solid;
+}
+
+.darthFont{
+  font-family: 'deathStar','DM Mono', monospace;
+  font-size: 22px;
+}
+
+.red{
+  font-size:18px;
+  color: red;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.green{
+  font-size:18px;
+  color: green;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.text{
+  color: red;
+  font-size: 30px;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+  .diedOn{
+    margin-top:5%;
+}

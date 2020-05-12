@@ -1,0 +1,9 @@
+
+
+.App{
+  background-image: url('./assets/boba-fett-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(0,0,0,0.5);
+}

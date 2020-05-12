@@ -1,0 +1,2 @@
+export const GET_DATA = "GET_DATA";
+export const GET_PERSON_DETAILS = "GET_PERSON_DETAILS";

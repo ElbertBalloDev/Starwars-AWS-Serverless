@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'deathStar';
+  src: url('../../../../assets/fonts/DeathStar-VmWB.ttf')format('truetype');
+}
+
+.modalParent{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.modalImage{
+  height: 300px;
+  max-width:300px;
+  margin: 0 10% 0 10%;
+
+}
+
+.modalDiv2{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.modalProperties{
+  font-family: 'deathStar','DM Mono', monospace;
+  font-size: 20px;
+  color:rgb(130, 33, 33);
+}
+
+.modalName{
+  font-size: 40px;  
+  color:black;
+}
+
+.modalResponse{
+  font-size: 18px;  
+  color:black;
+}

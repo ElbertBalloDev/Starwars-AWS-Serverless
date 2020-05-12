@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'deathStar';
+  src: url('../assets/fonts/DeathStar-VmWB.ttf')format('truetype');
+}
+
+.mainDiv{
+  display:grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+.openBountyHeader{
+  margin-left: 37%;
+  font-family: 'deathStar','DM Mono', monospace;
+  font-size: 38px;
+  text-align: center;
+}
+
+.navBar{
+  height: 100px;
+  display:grid;
+  grid-template-columns: 7fr 2fr;
+  /* background-color: rgb(89, 89, 89); */
+  padding-left:5%;
+  position: sticky;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: "deathStar" ,'DM Mono', monospace;
+  color: yellow;
+  text-shadow:
+  -3px -3px 0 #000,
+  1px 1px 0 #000,
+  -1px 1px 0 #000,
+  0px 0px 0 #000;
+}
+
+.logo:hover{
+  text-decoration: none;
+  color:yellow;
+}
+
+.navButtons{
+  margin-top:8%;
+}
+
+.navBtn{
+  margin-right:20px;
+  border: solid 1px 333;
+  box-shadow: 0 0 10px #333;
+}

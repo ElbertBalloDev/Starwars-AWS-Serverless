@@ -1,0 +1,26 @@
+@media all and (min-width: 480px) {
+  .Signup {
+    padding: 60px 0;
+    background-image: url("./../../assets/boba-fett-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+  }
+
+  .signupForm form {
+    margin: 10% auto;
+    max-width: 400px;
+  }
+
+  .formTitle{
+    text-align: center;
+  }
+
+  .form{
+    background: white;
+    padding: 30px 30px 40px 30px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px #333;
+  }
+}
